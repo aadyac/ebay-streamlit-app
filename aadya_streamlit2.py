@@ -13,7 +13,7 @@ st.set_page_config(page_title="eBay Laptop Explorer", layout="wide")
 st.title("💻 eBay Laptop Data Explorer & Price Predictor")
 
 # Load the dataset
-csv_path = "C:\\Users\\claud\\OneDrive\\Desktop\\messy\\Ebay Cleaned Data Set CSV.csv"
+csv_path = "ebay_cleaned_data.csv"
 df = pd.read_csv(csv_path)
 df = df.iloc[:, 1:]  # Remove the first column
 
